@@ -17,7 +17,7 @@ I am a responsible and hardworking person who puts maximum effort into every tas
 - HTML5, CSS3
 - JavaScript 
 - Git
-- VBA Basics
+- VBA
 
 ***
 ### Code example
