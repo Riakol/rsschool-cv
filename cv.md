@@ -15,11 +15,9 @@ I am a responsible and hardworking person who puts maximum effort into every tas
 ***
 ### Skills 
 - HTML5, CSS3
-- JavaScript Basics
+- JavaScript 
 - Git
-- C# Basics
 - VBA Basics
-- Python Basics
 
 ***
 ### Code example
