@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+* h2 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #b7a48d;
+}
+
+.wrapper {
+    display: flex;
+    margin: 35px auto 0 auto;
+    max-width: 1440px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper__left {
+    max-width: 360px;
+    padding: 0 18px 0;
+    background-color: #f3f4f5;
+}
+
+/* professional */
+.professional {
+    margin-top: 40px;
+    margin-bottom: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.professional__photo img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 30%;
+}
+
+.professional__name h1 {
+    margin-top: 8px;
+}
+
+.pro-position {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+
+/* introduction */
+.introduction {
+    margin-bottom: 50px;
+}
+
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.introduction__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* contacts */
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts h2 {
+    text-align: center;
+}
+
+.container p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.container img {
+    height: 20px;
+}
+
+.telegram__icon img {
+   height: 24px;
+}
+
+.city, .telegram, .mail {
+    display: flex;
+    flex-direction: row;
+}
+
+.city, .telegram {
+    margin-bottom: 15px;
+}
+
+/* Skills */
+.skills h2 {
+    text-align: center;
+}
+
+.pro-languages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pro-languages p {
+    font-weight: 600;
+}
+
+.pro-languages img {
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+.html img, .css img, .git img, .js img {
+    transition: all 0.2s ease-in;
+}
+
+.html, .js, .git, .css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.html img:hover {
+    transform: translateY(-10px);
+}
+
+.css img:hover {
+    transform: translateY(-10px);
+}
+
+.git img:hover {
+    transform: translateY(-10px);
+}
+
+.js img:hover {
+    transform: translateY(-10px);
+}
+
+/* language */
+.language ul li {
+   padding-bottom: 5px;
+}
+
+/* Wrapper right */
+.wrapper__right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fafafa;
+    padding: 20px 0 0 30px;
+}
+
+/* education */
+.education {
+    margin-bottom: 40px;
+}
+
+.education__university-logo {
+    display: flex;
+}
+
+.education__university-logo img {
+    max-width: 300px;
+    height: 220px;
+}
+
+.education__improvise-table {
+    display: flex;
+    width: 70%;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2); 
+    background: rgb(243,244,245);
+    background: linear-gradient(167deg, rgba(243,244,245,1) 48%, rgba(184,217,240,1) 86%);
+    padding: 5px 0 0 20px;
+    line-height: 2.5;
+    list-style: none;
+}
+
+.education__col-2 {
+    margin-left: 30px;
+}
+
+.IT {
+    text-align: center;
+}
+
+.education__col-3 ,.education__col-4, .education__col-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* experience */
+.experience__background p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.experience__background ul {
+    margin-bottom: 40px;
+}
+
+.experience__background ul li {
+    line-height: 1.5;
+}
+
+/* code */
+.code {
+    margin-bottom: 40px;
+}
+
+.code__taks code {
+    font-size: 16px;
+    text-align: center;
+}
+
+#codewars {
+    margin-bottom: 60px;   
+}
+
+/* footer */
+.footer-container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* margin-bottom: 35px; */
+    padding-top: 10px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3); 
+    background: rgb(184,217,240);
+    background: linear-gradient(167deg, rgba(184,217,240,1) 16%, rgba(243,244,245,1) 53%);
+}
+
+.date-logo {
+    display: flex;
+    margin: 0 auto;
+    transform: translate(50%, 0);
+}
+
+.git-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.git-date img {
+    margin-bottom: 10px;
+    transform: translate(160%, 0);
+    max-width: 32px;
+    height: 32px; 
+}
+
+.git-date p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rs-logo {
+    padding-right: 35px;
+}
+
+.rs-logo img {
+    display: flex; 
+    height: 32px;
+}
